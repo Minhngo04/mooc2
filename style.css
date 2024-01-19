@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+  }
+  
+  header {
+    background-color: aliceblue;
+  }
+  
+  nav {
+    width: 80%;
+    display: inline-block;
+  }
+  
+  .flex {
+    display: grid;
+    grid-template-columns: 50%, 50%; /* Two equal columns */
+    gap: 20px; /* Adjust gap as needed */
+    justify-content: center;
+  }
+  
+  .flex img {
+    width: 100%;
+    height: auto;
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  main {
+    font-size: 150%;
+    background-color: #fff700;
+  }
+  
+  footer {
+    background-color: #feecec;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2307f2;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.5s;
+  }
+  
+  nav a:hover {
+    color: purple;
+    border-color: purple;
+  }
+  
